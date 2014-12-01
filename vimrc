@@ -14,6 +14,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set relativenumber
+set hlsearch
 
 filetype off
 filetype plugin on
@@ -21,7 +23,6 @@ filetype plugin indent on
 
 set undofile      
 colorscheme torte
-
 " syntax completion "
 syntax on
 
@@ -42,6 +43,11 @@ autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,
 " vundle "
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
+
+"ctags/cscope"
+source ~/.vim/cscope_maps.vim
+set tags=./tags;../tags;/
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
