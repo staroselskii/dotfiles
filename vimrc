@@ -21,6 +21,7 @@ filetype plugin indent on
 
 set undofile      
 colorscheme torte
+
 " syntax completion "
 syntax on
 
