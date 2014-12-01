@@ -13,13 +13,15 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-set noexpandtab
+"show tabs"
+set listchars=tab:>-,trail:-
 
 filetype off
 filetype plugin on
 filetype plugin indent on
 
-colorscheme torte
+colorscheme default
+
 " syntax completion "
 syntax on
 
