@@ -34,9 +34,10 @@ call vundle#rc()
 
 "ctags/cscope
 source ~/.vim/cscope_maps.vim
-set tags=./tags;../tags;/
-map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
-map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+set tags=./tags;/
+"nmap <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+"nmap <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+nmap <C-h> :nohl<CR>
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
