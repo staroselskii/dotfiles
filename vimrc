@@ -14,7 +14,6 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-set noswapfile
 
 "highlighting
 syntax on
@@ -70,12 +69,15 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
 
+"NERDTree
+let NERDTreeIgnore = ['\.pyc$']
+
 "CtrlP
 
 " Setup some default ignores
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
-  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
+  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg|pyc)$',
 \}
 
 " Use the nearest .git directory as the cwd
