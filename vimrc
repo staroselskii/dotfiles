@@ -7,6 +7,7 @@ set termencoding=utf-8
 set clipboard=unnamedplus
 set clipboard=unnamed
 set undofile      
+set noswapfile
 
 "indention
 set smartindent
