@@ -6,8 +6,28 @@ set mouse=a
 set termencoding=utf-8 
 set clipboard=unnamedplus
 set clipboard=unnamed
+
+" Format the status line
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \
+
+" Remember info about open buffers on close
+set viminfo^=%
+
+" Backup
 set undofile      
 set noswapfile
+set nobackup
+
+" Sounds
+set noerrorbells
+set novisualbell
+
+" search 
+set smartcase
+set ignorecase
+set incsearch
+set showmatch
+
 
 "indention
 set smartindent
