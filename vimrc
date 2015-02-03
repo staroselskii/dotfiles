@@ -98,7 +98,7 @@ let NERDTreeIgnore = ['\.pyc$']
 " Setup some default ignores
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
-  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg|pyc)$',
+  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg|pyc|o)$',
 \}
 
 " Use the nearest .git directory as the cwd
