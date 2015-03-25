@@ -58,12 +58,12 @@ set tags=./tags;/
 "nmap <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 "nmap <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 nmap <C-h> :nohl<CR>
+nmap <C-x> :set list!<CR>
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
-
 "vim-airline
 
 " Enable the list of buffers
