@@ -98,7 +98,7 @@ let NERDTreeIgnore = ['\.pyc$']
 " Setup some default ignores
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
-  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg|pyc|o)$',
+  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg|pyc)$',
 \}
 
 " Use the nearest .git directory as the cwd
@@ -113,3 +113,21 @@ nmap <leader>p :CtrlP<cr>
 nmap <leader>bb :CtrlPBuffer<cr>
 nmap <leader>bm :CtrlPMixed<cr>
 nmap <leader>bs :CtrlPMRU<cr>
+
+if v:version >= 600
+  filetype plugin on
+  filetype indent on
+else
+  filetype on
+endif
+
+if v:version >= 700
+  set omnifunc=syntaxcomplete#Complete " override built-in C omnicomplete with C++ OmniCppComplete plugin
+  let OmniCpp_GlobalScopeSearch   = 1
+  let OmniCpp_DisplayMode         = 1
+  let OmniCpp_ShowScopeInAbbr     = 0 "do not show namespace in pop-up
+  let OmniCpp_ShowPrototypeInAbbr = 1 "show prototype in pop-up
+  let OmniCpp_ShowAccess          = 1 "show access in pop-up
+  let OmniCpp_SelectFirstItem     = 1 "select first item in pop-up
+  set completeopt=menuone,menu,longest
+endif
