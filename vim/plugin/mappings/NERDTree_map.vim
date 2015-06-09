@@ -1,0 +1,2 @@
+"NERDTree
+let NERDTreeIgnore = ['\.pyc$']
