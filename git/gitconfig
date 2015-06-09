@@ -2,7 +2,7 @@
 	name = Staroselskii Georgii
 	email = gosha371@gmail.com
 [alias]
-    lg = log --color --graph --pretty=format:'%C(auto)%h - %<(55,trunc)%s %Cgreen%<(15)%ad%Creset %Cblue%<(25,trunc)%an%Creset %C(auto)%d' --abbrev-commit --date=relative
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     unstage = reset HEAD
     st = status -sb
 [merge]
