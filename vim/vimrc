@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'henrik/vim-indexed-search'
@@ -55,3 +56,4 @@ set hlsearch
 filetype indent on
 
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set laststatus=2
