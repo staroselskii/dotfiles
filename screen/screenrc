@@ -1,0 +1,2 @@
+# Makes Control+b become the escape combination
+escape ^Bb
