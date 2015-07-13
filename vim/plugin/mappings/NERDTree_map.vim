@@ -1,2 +1,2 @@
 "NERDTree
-let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = ['\.pyc$', 'CMakeFiles', 'cmake_install.cmake', 'CTestTestfile.cmake', 'CMakeCache.txt']
