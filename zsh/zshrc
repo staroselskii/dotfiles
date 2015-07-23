@@ -6,9 +6,6 @@ prompt adam1
 
 setopt histignorealldups sharehistory
 
-# Use vim keybindings even if our EDITOR is set to vi
-bindkey -v
-
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000
 SAVEHIST=1000
@@ -35,3 +32,7 @@ zstyle ':completion:*' verbose true
 
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
+
+bindkey -v
+bindkey '^R' history-incremental-search-backward
+alias ls='ls --color'
