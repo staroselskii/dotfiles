@@ -11,3 +11,4 @@ nmap <leader>bl :ls<CR>
 
 nmap <C-h> :nohl<CR>
 nmap <C-x> :set list!<CR>
+nmap <C-I> :set paste!<CR>
