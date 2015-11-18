@@ -36,3 +36,4 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 bindkey -v
 bindkey '^R' history-incremental-search-backward
 alias ls='ls --color'
+alias rsp='rsync --partial --verbose'
