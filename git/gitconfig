@@ -9,6 +9,7 @@
 [merge]
 	tool = vimdiff
 	ff = only
+	conflictstyle = diff3
 [core]
 	excludesfile = ~/.gitignore
 [color]
