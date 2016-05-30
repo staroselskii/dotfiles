@@ -10,6 +10,7 @@ Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'henrik/vim-indexed-search'
 Plugin 'lyuts/vim-rtags'
+Plugin 'kopischke/vim-fetch'
 
 call vundle#end()
 filetype plugin indent on
