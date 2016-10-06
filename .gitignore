@@ -1,1 +1,3 @@
 vim/bundle
+tmux/plugins
+tmux/resurrect
