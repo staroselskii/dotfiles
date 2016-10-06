@@ -13,3 +13,10 @@ compinit -u
 bindkey -v
 bindkey '^R' history-incremental-search-backward
 alias rsp='rsync -vP'
+
+case $(uname) in
+    Darwin)
+        alias ls='ls -G' ;;
+    Linux)
+        alias ls='ls --color' ;;
+esac
