@@ -11,6 +11,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'henrik/vim-indexed-search'
 Plugin 'lyuts/vim-rtags'
 Plugin 'kopischke/vim-fetch'
+Plugin 'tmux-plugins/vim-tmux'
 
 call vundle#end()
 filetype plugin indent on
