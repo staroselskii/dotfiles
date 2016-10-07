@@ -1,5 +1,5 @@
 [user]
-	name = Staroselskii Georgii
+	name = Georgii Staroselskii
 	email = gosha371@gmail.com
 [alias]
     lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
@@ -14,3 +14,5 @@
 	excludesfile = ~/.gitignore
 [color]
 	ui = auto
+[gpg]
+	program = gpg2
