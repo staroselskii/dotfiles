@@ -1,17 +1,24 @@
-# Set up the prompt
-
 autoload -Uz promptinit
 promptinit
 prompt adam1
-
-setopt histignorealldups sharehistory
 
 # Use modern completion system
 autoload -Uz compinit
 compinit -u
 
+#history
+SAVEHIST=10000
+HISTFILE=~/.zsh_history
+
+setopt share_history
+setopt histignorealldups
+setopt incappendhistory
+
+#bindings
 bindkey -v
 bindkey '^R' history-incremental-search-backward
+
+#aliases
 alias rsp='rsync -vP'
 
 case $(uname) in
