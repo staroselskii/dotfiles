@@ -27,3 +27,5 @@ case $(uname) in
     Linux)
         alias ls='ls --color' ;;
 esac
+
+stty -ixon
