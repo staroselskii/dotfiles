@@ -6,6 +6,7 @@
     unstage = reset HEAD
     st = status -sb
     undo = checkout --
+    subupdate = submodule update --init --recursive
 [merge]
 	tool = vimdiff
 	ff = only
