@@ -12,6 +12,7 @@ Plugin 'henrik/vim-indexed-search'
 Plugin 'lyuts/vim-rtags'
 Plugin 'kopischke/vim-fetch'
 Plugin 'tmux-plugins/vim-tmux'
+Plugin 'gnattishness/cscope_maps'
 
 call vundle#end()
 filetype plugin indent on
