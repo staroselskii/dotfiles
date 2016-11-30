@@ -6,8 +6,14 @@ prompt adam1
 autoload -Uz compinit
 compinit -u
 
+#advanced search
+autoload -Uz history-beginning-search-menu
+zle -N history-beginning-search-menu
+bindkey '^X^X' history-beginning-search-menu
+
 #history
-SAVEHIST=10000
+HISTSIZE=999999999
+SAVEHIST=$HISTSIZE
 HISTFILE=~/.zsh_history
 
 setopt share_history
@@ -20,6 +26,7 @@ bindkey '^R' history-incremental-search-backward
 
 #aliases
 alias rsp='rsync -vP'
+alias waf="$PWD/modules/waf/waf-light"
 
 case $(uname) in
     Darwin)
