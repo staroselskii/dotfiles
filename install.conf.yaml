@@ -9,10 +9,9 @@
     ~/.gitconfig: git/gitconfig
     ~/.gitignore: git/gitignore
     ~/.zshrc: zsh/zshrc
-    ~/.zshenv: zsh/zshenv
     ~/.screenrc: screen/screenrc
-    ~/.profile: profile
-    ~/.profile.d: profile.d
+    ~/.zprofile: zprofile
+    ~/.zprofile.d: zprofile.d
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

@@ -10,4 +10,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH=$PATH:"$HOME/.local/bin"
 fi
 
+PATH=$PATH:"$HOME/bin/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin"
+
 export PATH

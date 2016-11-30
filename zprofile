@@ -12,6 +12,6 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export GPG_TTY=`tty`
 
-for file in "$HOME"/.profile.d/*; do
+for file in "$HOME"/.zprofile.d/*; do
       source "$file"
 done
