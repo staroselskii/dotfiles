@@ -27,6 +27,7 @@ bindkey '^R' history-incremental-search-backward
 #aliases
 alias rsp='rsync -vP'
 alias waf="$PWD/modules/waf/waf-light"
+alias ccat='pygmentize -g -O style=colorful,linenos=1'
 
 case $(uname) in
     Darwin)
