@@ -22,7 +22,12 @@ DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-plugins=(git vi-mode zsh-autosuggestions history-search-multi-word)
+plugins=(git
+vi-mode
+zsh-autosuggestions
+history-search-multi-word
+)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
