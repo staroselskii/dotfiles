@@ -14,6 +14,7 @@
     ~/.zprofile.d: zprofile.d
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/history-search-multi-word
+    ~/.oh-my-zsh/custom/themes/aphex.zsh-theme: zsh/aphex.zsh-theme
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
