@@ -12,6 +12,8 @@
     ~/.screenrc: screen/screenrc
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/history-search-multi-word
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
