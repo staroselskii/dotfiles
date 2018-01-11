@@ -13,3 +13,6 @@
 [submodule "zsh/zsh-autosuggestions"]
 	path = zsh/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "utils/git-subrepo"]
+	path = utils/git-subrepo
+	url = https://github.com/ingydotnet/git-subrepo.git
