@@ -50,5 +50,12 @@ alias waf="$PWD/modules/waf/waf-light"
 alias ccat='pygmentize -g -O style=colorful,linenos=1'
 alias realpath='python -c "import os; import sys; print(os.path.realpath(sys.argv[1]))"'
 
+case `uname` in
+      Darwin)
+        alias nproc='sysctl -n hw.physicalcpu'
+;;
+esac
+
+
 
 stty -ixon
