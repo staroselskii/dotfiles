@@ -1,3 +1,3 @@
 # Makes Control+b become the escape combination
 escape ^Bb
-defscrollback 10000
+defscrollback 1000000
