@@ -13,7 +13,7 @@ Plugin 'henrik/vim-indexed-search'
 Plugin 'kopischke/vim-fetch'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'gnattishness/cscope_maps'
-Plugin 'rust-lang/rust.vim'
+Plugin 'kergoth/vim-bitbake'
 
 call vundle#end()
 filetype plugin indent on
