@@ -33,9 +33,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-source "$HOME/utils/git-subrepo/.rc"
-fpath=('~/utils/git-subrepo/share/zsh-completion' $fpath)
-
 HISTSIZE=999999999
 SAVEHIST=$HISTSIZE
 HISTFILE=~/.zsh_history
