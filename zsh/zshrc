@@ -53,6 +53,6 @@ case `uname` in
 ;;
 esac
 
-
-
+export GCC_COLORS=auto
 stty -ixon
+ACK_PAGER=less
