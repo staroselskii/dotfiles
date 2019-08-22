@@ -8,6 +8,8 @@
     undo = checkout --
     subupdate = submodule update --init --recursive
     cpick = cherry-pick
+    branchdate =  ! ~/.git/helpers/git-branchdate-helper
+
 [merge]
 	tool = vimdiff
 	ff = only

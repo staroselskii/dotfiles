@@ -6,6 +6,7 @@
     ~/.tmux: tmux/
     ~/.vim: vim/
     ~/.vimrc: vim/vimrc
+    ~/.git: git/
     ~/.gitconfig: git/gitconfig
     ~/.gitignore: git/gitignore
     ~/.zshrc: zsh/zshrc
