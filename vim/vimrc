@@ -63,3 +63,5 @@ filetype indent on
 
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set laststatus=2
+
+set updatetime=100
