@@ -14,6 +14,7 @@ Plugin 'kopischke/vim-fetch'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'gnattishness/cscope_maps'
 Plugin 'kergoth/vim-bitbake'
+Plugin 'rlue/vim-barbaric'
 
 call vundle#end()
 filetype plugin indent on
