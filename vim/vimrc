@@ -16,6 +16,8 @@ Plugin 'gnattishness/cscope_maps'
 Plugin 'kergoth/vim-bitbake'
 Plugin 'rlue/vim-barbaric'
 Plugin 'mhinz/vim-signify'
+Plugin 'edkolev/tmuxline.vim'
+let g:tmuxline_powerline_separators = 0
 
 call vundle#end()
 filetype plugin indent on
