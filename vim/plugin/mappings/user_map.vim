@@ -13,3 +13,15 @@ nmap <C-h> :nohl<CR>
 nmap <C-x> :set list!<CR>
 nmap <C-I> :set paste!<CR>
 nmap <C-s> :set spell!<CR>
+
+" Toggle colorcolumn. For example used in Git commits
+
+fun! ToggleColorColumn()
+  if &colorcolumn == ''
+    set colorcolumn=72
+  else
+    set colorcolumn=
+  endif
+endfun
+
+nmap <C-n> :call ToggleColorColumn()<CR>

@@ -26,7 +26,6 @@ set mouse=a
 set termencoding=utf-8 
 set clipboard=unnamedplus
 set clipboard=unnamed
-set colorcolumn=72
 
 " Remember info about open buffers on close
 set viminfo^=%
