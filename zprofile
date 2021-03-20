@@ -15,3 +15,8 @@ export GPG_TTY=`tty`
 for file in "$HOME"/.zprofile.d/*; do
       source "$file"
 done
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
