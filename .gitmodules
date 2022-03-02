@@ -1,15 +1,12 @@
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
+	url = git@github.com:VundleVim/Vundle.vim.git
 [submodule "dotbot"]
 	path = dotbot
-	url = https://github.com/anishathalye/dotbot.git
+	url = git@github.com:anishathalye/dotbot.git
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
-[submodule "zsh/history-search-multi-word"]
-	path = zsh/history-search-multi-word
-	url = https://github.com/zdharma/history-search-multi-word
+	url = git@github.com:tmux-plugins/tpm
 [submodule "zsh/zsh-autosuggestions"]
 	path = zsh/zsh-autosuggestions
-	url = https://github.com/zsh-users/zsh-autosuggestions.git
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
