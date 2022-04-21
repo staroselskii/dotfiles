@@ -27,7 +27,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(git
 vi-mode
 zsh-autosuggestions
-history-search-multi-word
+history
 pip
 )
 
