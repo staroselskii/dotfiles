@@ -1,0 +1,12 @@
+[Unit]
+Description=Fusuma touchpad gestures
+
+[Service]
+ExecStart=/usr/local/bin/fusuma
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=graphical.target

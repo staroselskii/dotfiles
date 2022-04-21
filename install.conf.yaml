@@ -14,9 +14,11 @@
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
     ~/.config/fusuma/config.yml: fusuma/config.yml
+    ~/.config/systemd/user/fusuma.service: fusuma/fusuma.service
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/themes/aphex.zsh-theme: zsh/aphex.zsh-theme
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - vim +PluginInstall +qall
+  - systemctl --user enable fusuma && systemctl --user start fusuma
