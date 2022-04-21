@@ -13,6 +13,7 @@
     ~/.screenrc: screen/screenrc
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
+    ~/.config/fusuma/config.yml: fusuma/config.yml
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/themes/aphex.zsh-theme: zsh/aphex.zsh-theme
 
