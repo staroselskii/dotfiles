@@ -4,6 +4,8 @@
 # Path to your oh-my-zsh installation.
  export ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/Library/Python/2.7/bin:$PATH"
+export PATH="$PATH:$HOME/.gem/ruby/2.7.0/bin"
+export PATH="$PATH:$HOME/.local/bin"
 export ACK_PAGER=less
 
 # Set name of the theme to load. Optionally, if you set this to "random"
